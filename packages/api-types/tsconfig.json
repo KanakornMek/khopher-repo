@@ -1,0 +1,11 @@
+{
+    "extends": "@khopher-repo/typescript-config/base.json",
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+  }
+  
